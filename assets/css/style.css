@@ -1,0 +1,83 @@
+body {
+font-family: "Manrope", serif;
+font-optical-sizing: auto;
+font-style: normal; 
+   margin: 0;
+   padding: 0;
+   background-color: #f9f9f9;
+   color: #333;
+}
+.container {
+   width: 60%;
+   margin: 50px auto;
+   background: white;
+   padding: 50px;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-bottom: 2px solid #f90;
+   padding-bottom: 10px;
+}
+.header .title{
+   color: #f90;
+   font-size: 24px;
+   display: flex;
+   align-items: center;
+   font-weight: 700;
+}
+
+.header .title img {
+   width: 140px;
+   height: 140px;
+   border-radius: 50%;
+   margin-right: 10px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+   
+}
+.header .title .name{
+    margin-left: 30px;
+}
+h4{
+    letter-spacing: .1rem;
+    font-size: 2rem; 
+    line-height: 25px;
+} 
+h4 .role{
+    font-weight: 700;
+    font-size: 14px; 
+    color:#000; 
+    letter-spacing: .7rem;
+}
+
+.contact {
+   text-align: right;
+   display: flex;
+   align-items: center;
+}
+ .contact .icons {
+   display: flex;
+   flex-direction: column;
+   background: #f90;
+   padding:5px 5px;
+ }
+ 
+  .contact .details {
+    padding:15px 8px;
+  }
+.contact i {
+   color: white;
+   padding: 10px 10px;
+}
+
+.content {
+   margin-top: 20px;
+}
+.footer {
+   margin-top: 20px;
+   font-weight: bold;
+   color: #f90;
+}
