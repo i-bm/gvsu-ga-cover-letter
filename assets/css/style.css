@@ -78,7 +78,7 @@ h4 .role{
 }
 
 .content ul li {
-   padding-bottom: 10px;
+   padding-bottom: 10px !important;
 }
 .footer {
    margin-top: 20px;
